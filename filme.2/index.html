@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Escolha de Filme</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<h1>Escolha seu Filme</h1>
+
+<label for="genero">Escolha o Gênero:</label>
+<select id="genero" onchange="atualizarPlataformas()">
+<option value="">Comédia</option>
+<option value="">Anime</option>
+<option value="">Dorama</option>
+</select>
+
+<label for="plataforma">Escolha a Plataforma:</label>
+<select id="plataforma" onchange="atualizarFilmes()" enable>
+<option value="">Netflix</option>
+<option value="">Amazon Prime</option>
+<option value="">Disney+</option>
+<option value="">Hulu</option>
+<option value="">HBO Max</option>
+<option value="">apple TV</option>
+
+</select>
+
+<label for="filme">Escolha o Filme:</label>
+<select id="filme" enble>
+<option value="">Gente Grande</option>
+<option value="">Shrek 2</option>
+<option value="">Minha Mãe é Uma Peça</option>
+<option value="">Friends</option>
+<option value="">Pokemon</option>
+<option value="">The Promised Neverland</option>
+<option value="">A Voz do Silêncio</option>
+<option value="">Castelo Animado</option>
+<option value="">My name</option>
+<option value="">True Beauty</option>
+<option value="">Rainha das Lágrimas</option>
+<option value="">Alquimia das Almas</option>
+</select>
+
+<script src="script.js"></script>
+</body>
+</html>
